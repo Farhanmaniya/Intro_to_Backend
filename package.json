@@ -1,0 +1,28 @@
+{
+  "name": "intro_to_backend",
+  "version": "1.0.0",
+  "description": "A Simple project that shows intro.",
+  "homepage": "https://github.com/Farhanmaniya/Intro_to_Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Farhanmaniya/Intro_to_Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhanmaniya/Intro_to_Backend.git"
+  },
+  "license": "ISC",
+  "author": "Farhan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
